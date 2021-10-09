@@ -24,6 +24,7 @@ h4 {
     min-width: 98px;
     font-size: 2ch;
     color: hsl(240, 100%, 50%, .5);
+    position: absolute;
 }
 
 body {
@@ -33,6 +34,7 @@ body {
 p {
     font-size: 4mm;
     line-height: 2em;
+    position: static;
 }
 
 p.random1{
@@ -42,4 +44,12 @@ p.random1{
 p.random2{
     color: royalblue;
     display: inline;
+}
+
+button:hover {
+    color: red;
+}
+
+a:active {
+    background-color: yellow;
 }
