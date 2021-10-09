@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" type="image/jpg" href="Extra/favicon.jpg">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 2 Meeting Minutes</title>
+</head>
+<body>
+    <header>
+        <div><i>This is an example website of how our meeting minutes will possibly look like</i></div> 
+        
+        <nav>
+            <ul>
+                <li>
+                    <span><a href="#jump_to_beginning">Meeting Notes</a></span>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+        <h1>Meeting minutes!</h1>
+        <h3>This is meeting minutes for the 10/03/2021</h3>
+        <ol>
+            <li><input type = "checkbox"/> Have at least 1 question for your teammate</li>
+            <li><input type = "checkbox"/> Share at least 1 difficulty/problem within the project </li>
+        </ol>
+        <img
+            src="http://associationhelpnow.com/wp-content/uploads/2020/01/Mind-Your-Minutes-.jpeg"
+            alt="Meeting_Min"
+            width="700"
+        />
+        <section>
+        <h2 id = "jump_to_beginning">Meeting Notes</h2>
+            <p>
+                 So <strong>here</strong> we will write any ideas about our upcoming project or share current problem with
+                 the project we are curring working on. <b>For now this is just an experiment.</b> <br>
+                 <em>(This later will be split into different sections)</em>
+            </p>
+        </section>
+        <audio controls autoplay>
+            <source src="Extra/Lab_2_Audio.m4a" type="audio/mpeg">
+        </audio>
+        <br />
+        <video width="900" height="500" controls>
+            <source src="Extra/Lab_2_Vid.mov" type="video/mp4">
+        </video>
+        <details>
+            <summary>Details</summary>
+            Here we can put extra notes about the project that might be useful but not extremely important
+        </details>
+        <button type="button" onclick="alert('Haha! You thought it was going to be something cool? You were wrong >:)')">Important!</button>
+        <h3>This section is purely for testing</h3>
+        <p>
+            Please fill out this form below:
+        </p>
+        <form>
+            <label for="first_name">Your first name:</label><br>
+            <input type="text" id="first_name" name="first_name"><br>
+            <label for="last_name">Your last name:</label><br>
+            <input type="text" id="last_name" name="last_name">
+            <div>
+                <input type="radio" id="male" name="sex" value="male">
+            <label for="male">male</label>
+            </div>
+              
+            <div>
+                <input type="radio" id="female" name="sex" value="female">
+                <label for="female">female</label>
+            </div>
+              
+            <label for="Current_date">Current date:</label>
+            <input type="date" id="Current_date" name="date"
+            value="2021-10-01"
+            min="2021-10-01" max="2021-12-30">
+        </form>
+
+        <label for="better-fruit">Choose a better fruit:</label>
+        <input list="better-fruit_list" id="better-fruit" name="better-fruit"/>
+        <datalist id="better-fruit_list">
+            <option value="Apple">
+            <option value="Grapes">
+            <option value="Blueberries">
+            <option value="Strawberry">
+        </datalist>
+
+        <form>
+            <label for="Review">Review of this website:</label>
+            <textarea id="Review" name="Review" rows="4" cols="50">
+              This website is amazing!
+              </textarea>
+              <br><br>
+              <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <hr />
+
+    <footer>
+        <h5>This footer is useless, I don't know what it is for :(</h5>
+    </footer>
+
+</body>
+</html>

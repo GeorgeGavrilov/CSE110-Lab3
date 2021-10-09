@@ -1,2 +1,1 @@
-# CSE110-Lab3
-Lab 3 for CSE110
+https://georgegavrilov.github.io/CSE110-Lab2/
