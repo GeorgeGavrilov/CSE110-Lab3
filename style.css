@@ -1,21 +1,30 @@
 /* First comment for my first CSS file for LAB 3 website */
 
 h2 {
+    font-size: 0.5in;
     color: red;
 }
 
 h1 {
-    color: rgb(30, 200, 90);
+    font-size: 1.4cm;
+    color: rgb(29, 200, 90);
 }
 
 h3 {
-    color: #E6ED17;
+    font-size: 2vw;
+    color: #BF40BF;
 }
 
 h4 {
+    font-size: 2ch;
     color: hsl(240, 100%, 50%, .5);
 }
 
 body {
     background-color: AntiqueWhite;
+}
+
+p {
+    font-size: 4mm;
+    line-height: 2em;
 }
