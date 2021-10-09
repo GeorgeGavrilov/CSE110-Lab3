@@ -1,12 +1,14 @@
 /* First comment for my first CSS file for LAB 3 website */
 
 h2 {
+    font-family: 'Andada Pro', serif;
     text-align: center;
     font-size: 0.5in;
     color: red;
 }
 
 h1 {
+    font-family: 'Andada Pro', serif;
     text-align: center;
     text-decoration: overline;
     text-decoration-color: yellowgreen;
